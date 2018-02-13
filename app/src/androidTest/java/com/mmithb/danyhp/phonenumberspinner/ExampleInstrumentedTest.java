@@ -1,4 +1,4 @@
-package com.mmithb.danyhp.keyboardsamples;
+package com.mmithb.danyhp.phonenumberspinner;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.mmithb.danyhp.keyboardsamples", appContext.getPackageName());
+        assertEquals("com.mmithb.danyhp.phonenumberspinner", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.mmithb.danyhp.keyboardsamples;
+package com.mmithb.danyhp.phonenumberspinner;
 
 import org.junit.Test;
 
