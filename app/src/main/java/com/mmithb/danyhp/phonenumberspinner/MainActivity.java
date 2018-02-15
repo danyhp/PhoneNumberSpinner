@@ -51,8 +51,13 @@ public class MainActivity extends AppCompatActivity implements
             String showString = (editText.getText().toString() + " - " + mSpinnerLabel);
             // Assign to phoneNumberResult the view for text_phonelabel to prepare to show it.
             TextView phoneNumberResult = (TextView) findViewById(R.id.text_phonelabel);
+            TextView showTheNumberResult = (TextView) findViewById(R.id.text_view_number);
             // Show the showString in the phoneNumberResult.
-            if (phoneNumberResult != null) phoneNumberResult.setText(showString);
+            if (phoneNumberResult != null) {
+                phoneNumberResult.setText(showString);
+                showTheNumberResult.setText(showString);
+            }
+
 
         }
     }
